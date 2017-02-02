@@ -6,7 +6,8 @@ RUN apt-get update && apt-get install -y \
     zip \
     curl \
     nodejs \
-    npm
+    npm \
+    ruby
 RUN ln -s /usr/bin/nodejs /usr/bin/node
 RUN npm install -g bower && \
     npm install -g node-sass
